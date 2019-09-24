@@ -17,6 +17,6 @@ ready(function () {
         document.head.appendChild(style);
 
     }; // Load the latest version of the style.css
-    xhr.open("GET", 'https://raw.githubusercontent.com/Vinetos/Xsinoi/master/style.css', true);
+    xhr.open("GET", 'https://raw.githubusercontent.com/Vinetos/Xsinoi/master/src/style.css', true);
     xhr.send();
 });
