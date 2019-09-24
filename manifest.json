@@ -1,0 +1,29 @@
+{
+  "name": "Xsinoi",
+  "version": "0.1.0",
+  "short_name": "Xsinoi",
+  "author": "Vinetos",
+  "description": "the most popular dark theme extension for IonisX",
+  "manifest_version": 2,
+  "icons": {
+    "512": "./assets/icons/icon4.png"
+  },
+  "permissions": [
+    "https://raw.githubusercontent.com/"
+  ],
+  "content_scripts": [
+    {
+      "css": [
+        "src/style.css"
+      ],
+      "matches": [
+        "https://ionisx.com/*",
+        "https://courses.ionisx.com/*"
+      ],
+      "js": [
+        "src/content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

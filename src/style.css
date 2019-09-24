@@ -1,0 +1,83 @@
+div.content-wrapper {
+    background: #31383F;
+}
+
+#dashboard > div.menu {
+    background: #24292E;
+}
+
+#header > div {
+    background: #31383F;
+}
+
+#header > div > div > div.container_hdYJnHC3eW > form > input {
+    background: #121212;
+    border-color: #121212;
+}
+
+
+#course > div.menu {
+    background: #24292E;
+}
+
+#course > div.content-wrapper > div > div.header-second {
+    background: #2D333A;
+}
+
+#course > div.content-wrapper > div.course-container.tex2jax_ignore.category-color.category-cat-default > div.header-second > div > ul > li:nth-child(2) > a {
+    color: #fff;
+    background: #121212;
+}
+
+.course-component {
+    background-color: #24292E !important;
+    border-color: #121212;
+}
+
+h1, h2, h3, h4, h5, li, p, a {
+    color: #fff !important;
+}
+
+#course-content {
+    background: #24292E;
+}
+
+#content > div.container > div {
+    background: #31383F;
+}
+
+.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul {
+    background: #121212;
+}
+
+#accordion > nav > div {
+    background: #121212 !important;
+}
+
+.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul {
+    background: #31383F !important;
+}
+
+.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
+    background-color: #24292E !important;
+}
+
+#seq_content > div > div > div > div > h3 > em > span {
+    color: deeppink !important;
+}
+
+#seq_content > div > div > div > div > p > span {
+    color: deeppink !important;
+}
+
+#seq_content > div > div > div > div > h3 > span > em {
+    color: deeppink !important;
+}
+
+#seq_content > div > div > div > div > blockquote > ul > li > span {
+    color: deeppink !important;
+}
+
+.MathJax {
+    color: deeppink !important;
+}
