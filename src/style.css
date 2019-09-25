@@ -15,6 +15,9 @@ div.content-wrapper {
     border-color: #121212;
 }
 
+#header > div > div > div > div > div > ul {
+    background: #24292E;
+}
 
 #course > div.menu {
     background: #24292E;
