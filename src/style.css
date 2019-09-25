@@ -85,3 +85,24 @@ h1, h2, h3, h4, h5, li, p, a, label {
 .MathJax {
     color: deeppink !important;
 }
+
+#dashboard-widgets > div > div > div {
+    background-color: #24292E;
+}
+
+.widget-label {
+    color: white !important;
+}
+
+#project-1 > div {
+    background: #24292E;
+    border-color: #24292E;
+}
+
+#last-courses-accordion > div {
+    background-color: #31383F;
+}
+
+#project-1 > ul > li > div > div, #project-1 > ul > li > div {
+    background: #24292E;
+}
