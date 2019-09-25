@@ -106,3 +106,11 @@ h1, h2, h3, h4, h5, li, p, a, label {
 #project-1 > ul > li > div > div, #project-1 > ul > li > div {
     background: #24292E;
 }
+
+#home > header {
+    background: #121212;
+}
+
+#home > header > div > div.navbar-header > ul > li > ul {
+    background: #24292E;
+}
