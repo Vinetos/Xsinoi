@@ -34,7 +34,7 @@ div.content-wrapper {
     border-color: #121212;
 }
 
-h1, h2, h3, h4, h5, li, p, a {
+h1, h2, h3, h4, h5, li, p, a, label {
     color: #fff !important;
 }
 
