@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/Vinetos/Xsinoi.svg)
+
 # Xsinoi
 A dark theme with automatic update for IonisX courses.
 
