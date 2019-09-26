@@ -1,11 +1,34 @@
-div.content-wrapper {
+/*
+* GENERAL CONTENT THEMING
+*/
+
+h1, h2, h3, h4, h5, li, p, a, label {
+    color: #fff !important;
+}
+
+.content-wrapper {
     background: #31383F;
 }
 
-#dashboard > div.menu {
-    background: #24292E;
+.menu {
+    background: #24292E !important;
 }
 
+.menu-link:focus, .menu-link:hover {
+    background-color: #31383F !important;
+}
+
+.MathJax {
+    color: deeppink !important;
+}
+
+.widget-label {
+    color: white !important;
+}
+
+/*
+* HEADER THEMING
+*/
 #header > div {
     background: #24292E;
 }
@@ -19,9 +42,28 @@ div.content-wrapper {
     background: #24292E;
 }
 
-#course > div.menu {
+/*
+* HOME PAGE THEMING
+*/
+
+#home > header {
+    background: #121212;
+}
+
+#home > header > div > div.navbar-header > ul > li > ul {
     background: #24292E;
 }
+
+/*
+* DASHBOARD WIDGET THEMING
+*/
+#dashboard-widgets > div > div > div {
+    background-color: #24292E;
+}
+
+/*
+* COURSE THEMING
+*/
 
 #course > div.content-wrapper > div > div.header-second {
     background: #2D333A;
@@ -41,9 +83,9 @@ div.content-wrapper {
     background-color: #24292E !important;
 }
 
-h1, h2, h3, h4, h5, li, p, a, label {
-    color: #fff !important;
-}
+/*
+* COURSE CONTENT THEMING
+*/
 
 #course-content {
     background: #24292E;
@@ -53,20 +95,8 @@ h1, h2, h3, h4, h5, li, p, a, label {
     background: #31383F;
 }
 
-.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul {
-    background: #121212;
-}
-
-#accordion > nav > div {
-    background: #121212 !important;
-}
-
-.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul {
-    background: #31383F !important;
-}
-
-.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
-    background-color: #24292E !important;
+#last-courses-accordion > div {
+    background-color: #31383F;
 }
 
 #seq_content > div > div > div > div > h3 > em > span {
@@ -85,16 +115,19 @@ h1, h2, h3, h4, h5, li, p, a, label {
     color: deeppink !important;
 }
 
-.MathJax {
-    color: deeppink !important;
+/*
+* OTHER THEMING
+*/
+#accordion > nav > div {
+    background: #121212 !important;
 }
 
-#dashboard-widgets > div > div > div {
-    background-color: #24292E;
+.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul {
+    background: #31383F !important;
 }
 
-.widget-label {
-    color: white !important;
+.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
+    background-color: #24292E !important;
 }
 
 #project-1 > div {
@@ -102,18 +135,6 @@ h1, h2, h3, h4, h5, li, p, a, label {
     border-color: #24292E;
 }
 
-#last-courses-accordion > div {
-    background-color: #31383F;
-}
-
 #project-1 > ul > li > div > div, #project-1 > ul > li > div {
-    background: #24292E;
-}
-
-#home > header {
-    background: #121212;
-}
-
-#home > header > div > div.navbar-header > ul > li > ul {
     background: #24292E;
 }
