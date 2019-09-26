@@ -61,6 +61,20 @@ h1, h2, h3, h4, h5, li, p, a, label {
     background-color: #24292E;
 }
 
+#dashboard-widgets > div > div:nth-child(4) > div > div.widget-body > div > div:nth-child(1) {
+    background-color: #121212;
+}
+
+#last-courses-accordion > div {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.tracks-progress-widget .nav-tab-cycle li a:focus, .tracks-progress-widget .nav-tab-cycle li a:hover {
+    border: 1px solid #121212 !important;
+    background: #31383F;
+}
+
 /*
 * COURSE THEMING
 */
