@@ -160,3 +160,7 @@ h1, h2, h3, h4, h5, li, p, a, label {
 body > div.content-wrapper > section {
     background: #31383F !important;
 }
+
+#modal-office-connect > div > div > div > div.modalBody_11GNRrUkJM.modal-body > div:nth-child(2) > a {
+    color: black !important;
+}

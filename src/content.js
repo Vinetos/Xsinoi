@@ -13,7 +13,7 @@ ready(function () {
             return;
 
         var style = document.createElement('style');
-        style.innerHTML = xhr.responseText;
+        style.textContent = xhr.responseText;
         document.head.appendChild(style);
 
     }; // Load the latest version of the style.css
