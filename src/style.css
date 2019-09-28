@@ -162,6 +162,20 @@ a.courseBlockInner_2qSMaG4ICF {
 }
 
 /*
+* EXERCISE THEMING
+ */
+input[id^='input_i4x-ref'] {
+    background: #121212 !important;
+    border-color: #121212 !important;
+    color: white !important;
+}
+
+.math {
+    background: #121212 !important;
+    border-color: #121212 !important;
+}
+
+/*
 * OTHER THEMING
 */
 #accordion > nav > div {
