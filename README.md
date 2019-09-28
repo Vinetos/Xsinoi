@@ -26,6 +26,10 @@ A dark theme with automatic update for IonisX courses.
 
 ![](./assets/preview/screen3.png)
 
+![](./assets/preview/screen4.png)  
+
+![](./assets/preview/screen5.png)
+
 # How to install for dev
 ```sh
 npm install

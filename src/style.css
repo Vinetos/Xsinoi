@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, li, p, a, label {
 }
 
 .content-wrapper {
-    background: #31383F;
+    background: #31383F !important;
 }
 
 .menu {
@@ -78,6 +78,34 @@ h1, h2, h3, h4, h5, li, p, a, label {
 .courseBlockInner_2qSMaG4ICF:focus, .courseBlockInner_2qSMaG4ICF:hover {
     background: #31383F;
 }
+
+/*
+* CURSUS THEMING
+*/
+div.cycle-panblock-header {
+    background-color: #24292E;
+}
+
+div.cursus-header {
+    background-color: #2D333A;
+}
+
+div.cycle-panblock-inner > h4 {
+    background-color: #24292E;
+}
+
+div.cycle-panblock-inner > div {
+    background-color: #2D333A;
+}
+
+a.courseBlockInner_2qSMaG4ICF {
+    background-color: #24292E;
+}
+
+#promo-dashboard > div.content-wrapper > div.cursus-header > div > ul > li > a:hover, #promo-dashboard > div.content-wrapper > div.cursus-header > div > ul > li > a:focus {
+    background-color: #24292E;
+}
+
 
 /*
 * COURSE THEMING
