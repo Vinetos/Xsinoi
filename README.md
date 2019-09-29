@@ -6,7 +6,7 @@
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [Download for Chrome](https://chrome.google.com/webstore/detail/xsinoi/locnpgnaihgbgdppfdejejjckanaedcm)                                                                                                          | [Download for Firefox](https://addons.mozilla.org/fr/firefox/addon/xsinoi/)                                                                                                                                |
 
-> For manual installation, see [Manual installation guide](https://github.com/Vinetos/Xsinoi#chrome-)
+> For manual installation, see [Manual installation guide](https://github.com/Vinetos/Xsinoi#how-to-install-manual)
 
 # Xsinoi
 A dark theme with automatic update for IonisX courses.  
