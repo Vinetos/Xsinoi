@@ -161,6 +161,10 @@ a.courseBlockInner_2qSMaG4ICF {
     color: deeppink !important;
 }
 
+.xmodule_display.xmodule_CapaModule div.problem .solution-span > span {
+    background: #31383F !important;
+}
+
 /*
 * EXERCISE THEMING
  */
