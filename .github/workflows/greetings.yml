@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hey, Thanks you ! It''s seems to be your first issue. Please make sure your issue follow the [issue template](https://github.com/Vinetos/Xsinoi/tree/develop/.github/ISSUE_TEMPLATE) !'
+        pr-message: 'Thanks you for your first pull request ! :)'
