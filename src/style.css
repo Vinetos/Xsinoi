@@ -79,5 +79,21 @@ h1, h2, h3, h4, h5, li, p, a, label {
 }
 
 .auth-block .form-group-float label {
-    background: #2D333A;
+    background-color: #2D333A;
+}
+
+
+.modalBody_11GNRrUkJM {
+    background-color: #2D333A;
+}
+
+.modalBtn_2tdgyMABVI {
+    background-color: #31383F;
+    border-color: #31383F !important;
+}
+
+.modalBtn_2tdgyMABVI:hover {
+    background-color: #444A50;
+    border-color: #444A50 !important;
+    color: white;
 }
