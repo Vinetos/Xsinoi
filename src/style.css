@@ -2,10 +2,36 @@
  * GENERAL CONTENT THEMING
  */
 body {
-    background-color: #24292E;
+    background-color: #31383F;
 }
 
 h1, h2, h3, h4, h5, li, p, a, label {
+    color: white;
+}
+
+.card {
+    background-color: #2D333A;
+    color: white;
+}
+
+.card-testimonies-info h6 {
+    color: white;
+}
+
+.tab-link {
+    background-color: #2D333A;
+    color: white;
+}
+
+.tab-item:not(.active) .tab-link:hover {
+    background-color: #444A50;
+}
+
+.tab-item-title {
+    color: white;
+}
+
+.tab-link p {
     color: white;
 }
 
@@ -25,9 +51,33 @@ h1, h2, h3, h4, h5, li, p, a, label {
     background-color: #0C0C0C !important;
 }
 
+.navbar-main .dropdown .dropdown-menu {
+    background-color: #2D333A;
+}
+
+.dropdown-menu > li > a {
+    color: white;
+}
+
+
 /*
  * Search Content
  */
 .search-content {
     background-color: #24292E;
+}
+
+/*
+ * Login Box
+ */
+.auth-block {
+    background-color: #2D333A;
+}
+
+.auth-block .auth-block-divider span, .auth-block input {
+    background-color: #2D333A;
+}
+
+.auth-block .form-group-float label {
+    background: #2D333A;
 }
