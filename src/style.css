@@ -1,212 +1,33 @@
 /*
-* GENERAL CONTENT THEMING
-*/
+ * GENERAL CONTENT THEMING
+ */
+body {
+    background-color: #24292E;
+}
 
 h1, h2, h3, h4, h5, li, p, a, label {
-    color: #fff !important;
-}
-
-.content-wrapper {
-    background: #31383F !important;
-}
-
-.menu {
-    background: #24292E !important;
-}
-
-.menu-link:focus, .menu-link:hover {
-    background-color: #31383F !important;
-}
-
-.MathJax {
-    color: deeppink !important;
-}
-
-.widget-label {
-    color: white !important;
+    color: white;
 }
 
 /*
-* HEADER THEMING
-*/
-#header > div {
-    background: #24292E;
-}
-
-#header > div > div > div.container_hdYJnHC3eW > form > input {
-    background: #121212;
-    border-color: #121212;
-}
-
-#header > div > div > div > div > div > ul {
-    background: #24292E;
-}
-
-/*
-* HOME PAGE THEMING
-*/
-
-#home > header {
-    background: #121212;
-}
-
-#home > header > div > div.navbar-header > ul > li > ul {
-    background: #24292E;
-}
-
-/*
-* DASHBOARD WIDGET THEMING
-*/
-#dashboard-widgets > div > div > div {
-    background-color: #24292E;
-}
-
-#dashboard-widgets > div > div:nth-child(4) > div > div.widget-body > div > div:nth-child(1) {
-    background-color: #121212;
-}
-
-#last-courses-accordion > div {
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-
-.tracks-progress-widget .nav-tab-cycle li a:focus, .tracks-progress-widget .nav-tab-cycle li a:hover {
-    border: 1px solid #121212 !important;
-    background: #31383F;
-}
-
-.courseBlockInner_2qSMaG4ICF:focus, .courseBlockInner_2qSMaG4ICF:hover {
-    background: #31383F;
-}
-
-/*
-* CURSUS THEMING
-*/
-div.cycle-panblock-header {
-    background-color: #24292E;
-}
-
-div.cursus-header {
-    background-color: #2D333A;
-}
-
-div.cycle-panblock-inner > h4 {
-    background-color: #24292E;
-}
-
-div.cycle-panblock-inner > div {
-    background-color: #2D333A;
-}
-
-a.courseBlockInner_2qSMaG4ICF {
-    background-color: #24292E;
-}
-
-#promo-dashboard > div.content-wrapper > div.cursus-header > div > ul > li > a:hover, #promo-dashboard > div.content-wrapper > div.cursus-header > div > ul > li > a:focus {
-    background-color: #24292E;
-}
-
-
-/*
-* COURSE THEMING
-*/
-
-#course > div.content-wrapper > div > div.header-second {
-    background: #2D333A;
-}
-
-#course > div.content-wrapper > div.course-container.tex2jax_ignore.category-color.category-cat-default > div.header-second > div > ul > li:nth-child(2) > a {
-    color: #fff;
-    background: #121212;
-}
-
-.course-component {
-    background-color: #24292E !important;
-    border-color: #121212;
-}
-
-.course-progress-block {
-    background-color: #24292E !important;
-}
-
-/*
-* COURSE CONTENT THEMING
-*/
-
-#course-content {
-    background: #24292E;
-}
-
-#content > div.container > div {
-    background: #31383F;
-}
-
-#last-courses-accordion > div {
-    background-color: #31383F;
-}
-
-#seq_content > div > div > div > div > h3 > em > span {
-    color: deeppink !important;
-}
-
-#seq_content > div > div > div > div > p > span {
-    color: deeppink !important;
-}
-
-#seq_content > div > div > div > div > h3 > span > em {
-    color: deeppink !important;
-}
-
-#seq_content > div > div > div > div > blockquote > ul > li > span {
-    color: deeppink !important;
-}
-
-.xmodule_display.xmodule_CapaModule div.problem .solution-span > span {
-    background: #31383F !important;
-}
-
-/*
-* EXERCISE THEMING
+ * Navbar
  */
-input[id^='input_i4x-ref'] {
-    background: #121212 !important;
-    border-color: #121212 !important;
-    color: white !important;
+.navbar {
+    background-color: #24292E;
+    color: white;
 }
 
-.math {
-    background: #121212 !important;
-    border-color: #121212 !important;
+.nav-link {
+    color: white;
+}
+
+.navbar-search-input-focus {
+    background-color: #0C0C0C !important;
 }
 
 /*
-* OTHER THEMING
-*/
-#accordion > nav > div {
-    background: #121212 !important;
-}
-
-.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul {
-    background: #31383F !important;
-}
-
-.content-wrapper .container .course-wrapper .course-index #accordion .chapter ul li a {
-    background-color: #24292E !important;
-}
-
-#project-1 > div {
-    background: #24292E;
-    border-color: #24292E;
-}
-
-#project-1 > ul > li > div > div, #project-1 > ul > li > div {
-    background: #24292E;
-}
-
-body > div.content-wrapper > section {
-    background: #31383F !important;
-}
-
-#modal-office-connect > div > div > div > div.modalBody_11GNRrUkJM.modal-body > div:nth-child(2) > a {
-    color: black !important;
+ * Search Content
+ */
+.search-content {
+    background-color: #24292E;
 }
