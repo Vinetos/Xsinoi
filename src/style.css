@@ -97,3 +97,16 @@ h1, h2, h3, h4, h5, li, p, a, label {
     border-color: #444A50 !important;
     color: white;
 }
+
+/*
+ * Dashboard page
+ */
+body .menu, body header {
+    background-color: #24292E;
+    border-color: #24292E;
+}
+
+.form-control {
+    background-color: #0C0C0C;
+    border-color: #0C0C0C;
+}
