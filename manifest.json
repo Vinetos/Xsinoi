@@ -10,22 +10,25 @@
   },
   "content_scripts": [
     {
-      "css": [
-        "src/acdc.css",
-        "src/cri.css",
-        "src/debugpro.css",
-        "src/ionisx.css",
-        "src/pegasus.css"
-      ],
       "matches": [
-        "https://ionisx.com/*",
-        "https://courses.ionisx.com/*",
-        "https://*.helvetius.net/pegasus/*",
         "https://acdc.epita.fr/*",
         "http://cri.epita.fr/*",
-        "http://www.debug-pro.com/*"
+        "http://www.debug-pro.com/*",
+        "https://ionisx.com/*",
+        "https://courses.ionisx.com/*",
+        "https://*.helvetius.net/pegasus/*"
+      ],
+      "js": [
+        "src/selector.js"
       ],
       "run_at": "document_start"
     }
+  ],
+  "web_accessible_resources": [
+    "src/acdc.css",
+    "src/cri.css",
+    "src/debugpro.css",
+    "src/ionisx.css",
+    "src/pegasus.css"
   ]
 }
